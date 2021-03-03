@@ -1,0 +1,323 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flexwrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexcolumn {
+  flex-direction: column;
+}
+
+.container {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.out {
+  width: 100%;
+  background-color: #fcf7f2;
+}
+.out .part {
+  width: 50%;
+}
+.out .part .logo {
+  width: 300px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.out .space {
+  width: 20%;
+}
+.out .up {
+  padding: 5px;
+}
+.out .border {
+  border: 1px solid #e3dada;
+}
+.out .between {
+  width: 42%;
+}
+.out .smallspace {
+  width: 8%;
+}
+.out .smalljpg {
+  margin-left: 17px;
+  height: 30px;
+  margin-top: 10px;
+}
+.out .black2 {
+  background-color: #322c2e;
+}
+.out .blue {
+  font-weight: bold;
+  color: #008cb6;
+  margin-left: 12px;
+}
+.out .kind {
+  font-size: 16px;
+  color: #776d72;
+}
+.out .rightandleft {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  color: white;
+}
+
+.yellow {
+  background-color: #ff9800;
+}
+.yellow .navbar {
+  border-right: 1px solid #c77e15;
+  font-size: 18px;
+  width: 14%;
+  padding: 0px 15px;
+}
+.yellow .navbar1 {
+  font-size: 18px;
+  padding: 0px 15px;
+}
+
+.start {
+  height: 590px;
+  background-color: #e9e4e0;
+}
+.start .ustresim {
+  margin-left: 50px;
+}
+.start .detbil {
+  width: 150px;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 0px 30px;
+}
+
+.circle {
+  background-color: #ff9800;
+  border-radius: 100px;
+  width: 120px;
+  height: 120px;
+  margin-left: 30px;
+}
+.circle .jpg {
+  width: 50px;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+.circle .yazi {
+  color: white;
+  margin-top: 2px;
+  margin-left: 4px;
+  text-align: center;
+}
+
+.space2 {
+  width: 30%;
+}
+
+.between2 {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.stage {
+  background-color: #ff9800;
+}
+
+.center {
+  text-align: center;
+}
+
+.box {
+  background-color: white;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.box .in {
+  width: 90px;
+  height: 90px;
+  margin-left: 80px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.box p {
+  margin-bottom: 40px;
+}
+
+.stage2 {
+  background-color: #e9e4e0;
+}
+.stage2 .h1 {
+  color: #ffb300;
+}
+.stage2 .jpg2 {
+  width: 40px;
+  height: 40px;
+}
+
+.stage3 {
+  background-color: #faf5f0;
+}
+.stage3 .vakıfbank {
+  border-radius: 8px;
+  background-color: #423c3c;
+}
+.stage3 .sagbosluk {
+  margin-right: 30px;
+}
+.stage3 .box2 {
+  width: 170px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.stage4 {
+  border-top: 1px solid #ded9d5;
+  background-color: #faf5f0;
+}
+
+.stage5 {
+  background-color: #f6efe9;
+}
+.stage5 .downborder {
+  border-bottom: 1px solid #ded9d5;
+}
+.stage5 .pgup {
+  margin-top: 100px;
+  height: 60px;
+}
+.stage5 .pgdown {
+  margin-bottom: 90px;
+  height: 30px;
+}
+
+.stage6 {
+  background-color: #201d1e;
+}
+.stage6 .gray {
+  color: #60747e;
+}
+
+.background {
+  margin-top: 1px;
+  background-color: white;
+}
+
+.s1 {
+  background-color: white;
+  margin-top: 10px;
+}
+.s1 div div .line {
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: 15px;
+}
+.s1 div div .write {
+  font-size: 15px;
+}
+
+.s2 {
+  background-color: white;
+  margin-top: 10px;
+}
+.s2 div p {
+  font-size: 20px;
+}
+
+.s3 {
+  background-color: #f3efe0;
+}
+.s3 div .set {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-left: 50px;
+}
+.s3 div .set2 {
+  margin-top: 35px;
+  margin-left: 40px;
+  margin-right: 50px;
+}
+.s3 div .set2 .bildet {
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  padding: 1px 0px 3px 0px;
+}
+.s3 div .set2 p {
+  font-size: 18px;
+}
+
+.s4 {
+  background-color: white;
+  text-align: center;
+}
+.s4 div h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.s4 div div .right {
+  margin-right: 20px;
+}
+
+.box3 {
+  text-align: center;
+  border-radius: 5px;
+  width: 280px;
+  height: 300px;
+  padding: 5px;
+  background-color: #ffb300;
+}
+
+.upup {
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.downcolor {
+  background-color: #f5efe9;
+}
+
+.s5 {
+  margin-bottom: 40px;
+}
+.s5 div div img {
+  margin-top: 25px;
+  margin-left: 40px;
+}
+.s5 div div h1 {
+  color: #ffb300;
+  margin: 70px 0px 0px 0px;
+}
+.s5 div div h3 {
+  margin: 25px 0px 0px 0px;
+}
+.s5 div div p {
+  margin: 0px;
+}
+.s5 div div div p {
+  margin: 20px;
+  padding: 15px;
+}
+.s5 div div .pit {
+  margin-top: 120px;
+  margin-left: 110px;
+}

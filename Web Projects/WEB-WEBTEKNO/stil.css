@@ -1,0 +1,435 @@
+
+
+body {
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+font-family: arial;
+font-weight: bold;
+
+}
+
+.flex-container{
+ display: flex;
+ background-color:rgb(238, 238, 238);
+ padding: 8px;
+ 
+}
+.flex-kapsayici{
+    display: flex;
+    justify-content:center;
+}
+.flex-main{
+    display: flex;
+}
+.flex-down{
+    display: flex;
+    flex-direction: column;
+}
+
+.buyuk-flex{
+ width: 50% ;
+}
+.orta-flex{
+    width: 25%;
+}
+.kucuk-flex{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.yanbosluk{
+    width: 8px;
+}
+.altbosluk{
+    height: 8px;
+}
+
+
+.img-buyuk{
+    width: 100%;
+    height: 404px;
+    background-image: url("image/1.jpg");    
+}
+.img-orta{
+    width: 100%;
+    height: 404px;
+    background-image: url("image/2.jpg");
+}
+.img-kucuk{
+    width: 100%;
+    height: 198px;
+    background-image: url("image/3.jpg");
+}
+.img-cokkucuk{
+    width: 100%;
+    height: 198px;
+    background-image: url("image/4.jpg");
+}
+.trendarkabir{
+    width: 300px;
+    height: 169px;
+    background-image: url("image/s1.jpg");
+}
+.trendarkaiki{
+    width: 300px;
+    height: 169px;
+    background-image: url("image/s3.jpg");
+}
+.trendarkauc{
+    width: 300px;
+    height: 169px;
+    background-image: url("image/s2.jpg");
+}
+
+
+
+.etiket{
+    background-color: #ff9800;
+    font-size: .700em;
+    line-height: normal;
+    font-weight: 700;
+    margin: 0;
+    padding: 6px 8px 3px;
+    display: table-cell;
+    color: #fff;
+    
+}
+.block-header{
+    font-family: TMSans;
+    font-size: 2.25em;
+    line-height: normal;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    margin: 8px 0 0;
+    font-family: arial;
+    font-weight: bold;
+}
+.block-head{
+    font-family: TMSans;
+    font-size: 1.7em;
+    line-height: normal;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    margin: 8px 0 0;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.square {
+  
+  border: 0px solid black;
+  position: relative;
+  
+  
+}
+.square:before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 40%;
+  width: 100%;
+  bottom: 0;
+  transition: height 0.6s ease-out;
+  background: linear-gradient(to bottom, transparent 0%, black 100%);
+}
+.square:hover:before {
+  height: 60%;
+}
+
+.listele{
+    display: block;
+    position: relative;
+    list-style: none;
+    margin: 8px 0 0;
+    padding: 0;
+    font-size: .8125em;
+    color: #999;
+}
+.lis{
+    padding-right: 16px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 16px;
+}
+.oynatma{
+    position: absolute;
+    bottom: 10px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tab{
+    margin-right: 50px;
+}
+.taba{
+
+    width: 30px;
+    text-align: center;
+    float: left;
+    margin-top: 24px;
+    margin-left: 15px;
+    color: white;
+    
+}
+
+.menu{
+    background:#e62f2f ;
+    height: 60px;
+    width: 100%;
+}
+
+.menuNesnesi{
+    text-align: center;
+    float: left;
+    margin-top: 18px;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 15px;
+    
+    margin-left: 15px;
+}
+
+.menuNesnesi:hover{
+    border-bottom: 2px solid white;
+}
+.menuNesnesiYazi{
+    margin-top: 22.5px;
+    height: 35.5px;
+}
+.logo{
+    width: 142px;
+    text-align: center;
+    float: left;
+    margin-top: 18px;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 15px;
+    
+    margin-left: 30px;
+}
+
+.flex-sag{
+    display: flex;
+    justify-content:right;
+}
+.tabat{
+    width: 30px;
+    text-align: center;
+    float: right;
+    margin-top: 17px;
+    margin-left: 15px;
+    color: white;
+}
+.tabata{
+    width: 70px;
+    text-align: center;
+    float: right;
+    margin-top: 17px;
+    margin-left: 15px;
+    color: white;
+}
+
+
+
+.ortakisim{
+    width: 70%;
+    height: 100%;
+    
+}
+.anahaberler{
+width: 65%;
+
+}
+.ortabosluk{
+width: 5%;
+}
+.yanhaberler{
+width: 25%;
+}
+
+.yuvarlak{
+background-color: #ff9800;
+border-radius: 100px;
+width:30px;
+height:30px;
+margin-left: 16px;
+}
+
+.play{
+    background-color: #9b28b0;
+    border-radius: 100px;
+    width:70px;
+    height:70px;
+    opacity: 0.8;
+    
+}
+
+.yazirenk{
+    font-size: 13px;
+    font-weight: 5px;
+    color: #99a4c4;
+}
+.yazirenkt{
+    color: #ff5722;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #e62f2f;
+    font-family: arial;
+    height: 60px;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 0px solid white;
+  }
+  .navbar div {
+      float: right;
+  }
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    font-family: Arial;
+    
+  }
+  
+  .dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover {
+    border-bottom: 1px solid white;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: #696969;
+    padding: 12px 16px;
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: #d6c4c4;
+  }
+
+  .dropdownn-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+  }
+  
+  .dropdownn-content a {
+    float: none;
+    color: #696969;
+    padding: 12px 16px;
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdownn-content a:hover {
+    background-color: #d6c4c4;
+  }
+  
+  .show {
+    display: block;
+  }
+  .showw {
+    display: block;
+  }
+  
+  .boyut{
+      margin-top: 5px;
+  }
+
+  .degis:hover{
+      color: #ff5722;
+  }
+
+
+  .side {
+		
+    position:fixed;
+    width:0;
+    height:100%;
+    background: #fafafa;
+    left:0;
+    top:0;
+    z-index:1;
+    transition: 0.5s;
+    padding-top:60px;
+    overflow-x:hidden;
+    
+} 
+
+.side a {
+    
+    display:block;
+    text-decoration: none;
+    font-size:14px;
+    color:#818181;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-left: 40px;
+    height: 35px;
+    transition: 0.1s;
+}  
+
+.side a:hover {
+    
+    background-color:  #f0f0f0;
+    
+}
+
+.side .kapat {
+    
+     position:absolute;
+     top:0;
+     right:25px;
+     font-size:36px;
+     
+    
+} 
+.farklı{
+    padding-left: 10px;
+}
+
+
+  

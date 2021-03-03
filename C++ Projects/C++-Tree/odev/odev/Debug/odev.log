@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\zahit\Desktop\agacveriyapisi\Tree.h(25,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  odev.vcxproj -> C:\Users\zahit\Desktop\agacveriyapisi\odev\Debug\odev.exe
