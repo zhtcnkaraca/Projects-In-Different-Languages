@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zahit can</title>
+</head>
+
+<body>
+    <input oninput="metinDegeriniAl()" id="metinKutusu" placeholder="metin giriniz" />
+    <input oninput="sonucDegeriniAl()" id="sonucKutusu" placeholder="istenilen veriyi giriniz" />
+
+    <p id="sonuc">
+        
+    </p>
+
+    
+    <p id="cevap">
+        
+    </p>
+    
+
+    <script>
+
+        function metinDegeriniAl() {
+            
+            var kutu =document.getElementById('metinKutusu');
+            
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("cevap").innerText = xhttp.responseText;
+                    sonucDegeriniAl();
+                }
+            };
+        xhttp.open("GET", kutu.value, true);
+        xhttp.send();
+
+        }
+    
+        function sonucDegeriniAl() {
+
+            var son = document.getElementById("sonucKutusu").value; 
+            var parser = new DOMParser();
+            xmlDoc = parser.parseFromString(document.getElementById("cevap").innerText, "text/xml");
+            document.getElementById("sonuc").innerHTML = xmlDoc.getElementsByTagName(son)[0].childNodes[0].nodeValue;
+                        
+        }
+
+    </script>
+</body>
+
+</html>
